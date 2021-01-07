@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice JS | Ascenseurs</title>
+    <script src="assets/script.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <section id="main">
+        <div class="container">
+            <h1>Des ascenseurs en Javascript</h1>
+            <p class="pres">Vous pouvez utiliser les deux ascenseurs ci-dessous pour vous balader simultanément entre 6 étages différents. Des ascenseurs quoi !</p>
+            <div class="ascenseurs">
+                <div id="asc1" class="asc">
+                    <div id="key1" class="keyboard">
+                        <ul>
+                            <li>6</li>
+                            <li>5</li>
+                            <li>4</li>
+                            <li>3</li>
+                            <li>2</li>
+                            <li>1</li>
+                        </ul>
+                    </div>
+                    <div class="ascenseur">
+                        <div id="imgAsc1" class="contain-img"></div>
+                    </div>
+                </div>
+                <div class="btn-floor">
+                    <div class="contain-btns">
+                        <span class="floor" data-floor="6"></span>
+                        <span class="floor" data-floor="5"></span>
+                        <span class="floor" data-floor="4"></span>
+                        <span class="floor" data-floor="3"></span>
+                        <span class="floor" data-floor="2"></span>
+                        <span class="floor waiting" data-floor="1"></span>
+                    </div>
+                </div>
+                <div id="asc2" class="asc">
+                    <div class="ascenseur">
+                        <div id="imgAsc2" class="contain-img"></div>
+                    </div>
+                    <div id="key2" class="keyboard">
+                        <ul>
+                            <li>6</li>
+                            <li>5</li>
+                            <li>4</li>
+                            <li>3</li>
+                            <li>2</li>
+                            <li>1</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="hiddenSounds">
+                <div class="dings">
+                    <audio id="ding1">
+                        <source src="assets/audio/ding.mp3" type="audio/mpeg">
+                    </audio>
+                    <audio id="ding2">
+                        <source src="assets/audio/ding.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="musics">
+                    <audio id="music1">
+                        <source src="assets/audio/music.mp3" type="audio/mpeg">
+                    </audio>
+                    <audio id="music2">
+                        <source src="assets/audio/music.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

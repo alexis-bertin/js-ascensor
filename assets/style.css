@@ -1,0 +1,116 @@
+/*////////////////////////////////////
+                BASE
+////////////////////////////////////*/
+
+div.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+p.pres{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+
+/*////////////////////////////////////
+            ASCENSEURS BASE
+////////////////////////////////////*/
+
+div.ascenseurs{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+div.asc{
+    display: flex;
+
+}
+
+div.keyboard{
+    display: flex;
+    align-items: center;
+}
+
+div.keyboard ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.keyboard ul li {
+    border: 1px solid grey;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+div.ascenseur{
+    height: 600px;
+    width: 80px;
+    background: rgb(50, 50, 50);
+    margin: 0 20px;
+    position: relative;
+}
+
+div.ascenseur div.contain-img{
+    height: 100px;
+    width: 100%;
+    background-image: url(img/open.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+}
+
+div.btn-floor{
+    height: 600px;
+}
+
+div.btn-floor div.contain-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+div.btn-floor div.contain-btns span{
+    height: 20px;
+    width: 20px;
+    background: grey;
+    border-radius: 100%;
+    margin: 0 50px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+div.btn-floor div.contain-btns span:active{
+    background: lightgrey;
+}
+
+
+/*////////////////////////////////////
+        ASCENSEURS WITH JS
+////////////////////////////////////*/
+
+div.btn-floor div.contain-btns span.waiting{
+    background: lightgrey;
+}
+
+div.keyboard ul li.waiting {
+    background: lightgreen;
+}
+
+div.ascenseur div.contain-img.close{
+    background-image: url(img/close.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

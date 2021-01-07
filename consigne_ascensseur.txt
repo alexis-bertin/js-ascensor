@@ -1,0 +1,9 @@
+Sur la partie HTML, vous devez représenter une cage d'ascensseur de 6 étages avec a chaque étage un bouton pour appeler l'ascensseur.
+L'ascensseur doit permettre d'aller a n'importe lequel des étages en appuyant sur un clavier représenter dans l'ascensseur.
+
+En JS, la consigne est simple, faite fonctionner l'ascensseur correctement, il doit posséder une mémoire tempon pour garder les appels fait a chaque étage.
+Et il doit arriver aux étages demandés au fur et à mesure.
+
+Le next level, c'est de faire le même système en gérant 2 ascensseurs en même temps.
+
+Celui/Celle qui me réussit ça, c'est un ticket pour quelques pintes :D
